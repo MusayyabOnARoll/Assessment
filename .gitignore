@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/model.joblib
+
+# assessment data: not ours to publish
+data/*.csv

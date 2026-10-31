@@ -1,0 +1,27 @@
+{
+  "n_dev_rows": 48000,
+  "n_training_rows_after_outlier_removal": 47323,
+  "n_outliers_removed": 677,
+  "hgb_params": {
+    "max_iter": 400,
+    "early_stopping": false,
+    "learning_rate": 0.06,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 0.0,
+    "random_state": 0
+  },
+  "stage2_terms": [
+    "mi",
+    "qs",
+    "dow",
+    "t"
+  ],
+  "validation_pred_rate_mean": 2384.4873683333335,
+  "validation_pred_rate_per_mile_median": 2.1710973736857047,
+  "train_clean_rate_per_mile_median": 2.145319190346439,
+  "december_pred_min_max": [
+    818.31,
+    842.83
+  ]
+}
